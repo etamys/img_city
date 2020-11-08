@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/img_bo_square"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/beaitiful_img"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/gotrypper"
+        app:shapeAppearanceOverlay="@style/roundedCornersImageView" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beaitiful_img"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Agra"
+        android:textColor="#1e274e"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="1 Activity"
+        android:textColor="#969a9a"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/city"
+        android:layout_alignRight="@id/city"
+        android:layout_gravity="end"
+        android:layout_marginTop="-19dp"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+
+</RelativeLayout>
+
